@@ -3966,13 +3966,16 @@ height : 320px;
 		}
 		@media screen and (max-width: 420px) {
 			#first{
-				margin-top: -63%;
-				height: 100%;
+				margin-top: -65%;
+				height: 60%;
+
 			}
 			#first h2{
 				padding-bottom: 15%;
 			}
-
+			#wrapper #phonenone{
+				display: none;
+			}
 
 			.image.fill {
 			height: 65%;
@@ -3986,9 +3989,13 @@ height : 320px;
 			}
 			
 			.player{
-				height: 200px;
+			
+				position: relative;
+				margin-top: -10%;
+				height: 175px;
+				
 			}
 			.player iframe{
-				height: 200px;
+				height: 175px;
 			}
 		}
