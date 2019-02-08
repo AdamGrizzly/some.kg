@@ -2929,7 +2929,8 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		margin: -1.25rem 0 0 -1.25rem;
-		width: calc(100% + 1.25rem);
+		width: 100%;
+		margin-left: -12%
 	}
 
 		.gallery a {
@@ -2937,21 +2938,23 @@ input, select, textarea {
 			display: block;
 			margin: 1.25rem 0 0 1.25rem;
 			outline: 0;
+			margin-left: 10%;
 			position: relative;
-			width: calc(50% - 1.25rem);
+			width: 10%;
 		}
 
 			.gallery a img {
 				display: block;
-				height: 25vw;
-				min-height: 18rem;
+				height: 12vw;
+				min-height: 14rem;
 				object-fit: cover;
 				object-position: center;
-				width: 75%;
-				margin-left: 10%;
+				width: 250%;
 				border : #0088a2 solid 2px;
 			}
-
+			.gallery a img(1){
+				margin-left: 20%;
+			}
 				.gallery a.landscape img{
 				display: block;
 				height: 25vw;
@@ -3930,6 +3933,9 @@ height : 320px;
 			width: 40%;
 			margin-left: 30%;
 	
+			}
+			#wrapper #phonenone{
+				display: none;
 			}
 			.image.fill img
 			.player{
